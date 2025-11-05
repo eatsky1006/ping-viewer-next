@@ -10,7 +10,6 @@ struct Args {
     #[arg(long, default_value = "false")]
     enable_auto_create: bool,
 
-    /// Deletes settings file before starting.
     #[arg(long)]
     reset: bool,
 
